@@ -1,0 +1,11 @@
+Abstract Data Types (ADT) vs. Implementation (data structures)
+
+ADTs are the umbrella that data structures congregate under. ADTs are categories.
+
+A list (ADT) could be a dynamic array, or maybe a linked list (DS).
+A queue (ADT) could be a linked list based queue, a stack based queue, or maybe an array based queue.
+A map (ADT) could be a tree map, a hash map, a hash table, etc.
+
+Just like a vehicle could be a car, bike, or boat.
+
+ADTs give insight to how a DS should behave.

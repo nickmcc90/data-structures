@@ -1,0 +1,14 @@
+A static array is a fixed length container containing n elements,
+indexable from the range [0, n-1];
+
+Uses are:
+Temporarily storing objects.
+Lookup tables, things that are in order.
+Able to return multiple values from a function.
+Used in dynamic programming to cache answers to subproblems.
+
+Accessing take O(1) time, and searching through it takes O(n) time. It doesn't
+make sense to insert, append, or delete something from a static array. In dynamic arrays,
+inserting and deleting takes O(n) time.
+
+Dynamic arrays can grow and shrink in size.

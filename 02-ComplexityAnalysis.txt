@@ -1,0 +1,19 @@
+Constant time: O(1)
+Logarithmic time: O(logn)
+Linear time: O(n)
+Linearithmic time: O(nlogn)
+Quadric time: O(n^2)
+... and so on
+
+Big O only takes the worst case scenario in mind. So...
+
+If O(n^3 + n^2), then O is just O(n^3) because we only take the worst case.
+Just like O(n + n) is O(2n) which is O(n). This could still be optimizied, though.
+
+Logarithmic times are done with binary searches.
+
+Examples:
+Finding all subsets of a set: O(2^n)
+Finding all permuatations of a string: O(n!)
+Sorting using mergesort O(nlogn)
+Iterating over all cells in matrix n x m O(nm)
